@@ -1,0 +1,102 @@
+body {
+    background-color: #e0ffff;
+    margin: 1;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #00ffff;
+    padding: 10px 0;
+  }
+  
+  h1 {
+    font-family: Trebuchet MS;
+    text-align: center;
+  }
+  
+  .links ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .links ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .links ul li a:hover,
+  .links ul li a:active {
+    background-color: #4682b4;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #00ffff;
+    padding: 10px 0;
+  }
+  
+  .txt {
+    font-size: 16px;
+  }
+  
+  h2 {
+    font-size: 120px;
+    color: #d8ffff;
+  }
+  
+  p {
+    font-size: 2em;
+  }
+  
+  .bg {
+    display: grid;
+    place-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .text {
+    padding: 1em;
+    min-height: 30vh;
+  }
+
+  .foo{
+    font-size: 16px;
+  }
+
+  .parralax1{
+    background-image: url(img/fon1.jpg);
+  }
+
+  .parralax2{
+    background-image: url(img/fon2.jpg);
+  }
+
+  .parralax3{
+    background-image: url(img/fon3.jpg);
+  }
+  
+  @media only screen and (max-width: 768px) {
+    h1 {
+      font-size: 24px;
+    }
+  
+    h2 {
+      font-size: 48px;
+    }
+  
+    p {
+      font-size: 1.5em;
+    }
+  
+    .links ul li {
+      display: block;
+      margin: 5px 0;
+    }
+  }
+  
