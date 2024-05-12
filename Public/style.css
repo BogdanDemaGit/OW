@@ -163,7 +163,7 @@ footer {
 
 #orderlink {
   font-size: 15px;
-  color: #4682b4;
+  color: #007bff;
 }
 
 input[type="text"] {
@@ -212,7 +212,7 @@ input[type="text"]:focus {
 .price {
   font-weight: bold;
   font-size: 16px;
-  color: #6c8ff0;
+  color: #0042f8;
   margin-bottom: 10px;
   display: block;
 }
