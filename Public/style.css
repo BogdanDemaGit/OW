@@ -194,11 +194,6 @@ input[type="text"]:focus {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.product-item img {
-  width: 100%;
-  height: auto;
-}
-
 .product-list {
   padding: 10px;
   text-align: center;
